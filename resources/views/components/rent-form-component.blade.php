@@ -1,8 +1,9 @@
-<form class="relative flex flex-col items-end justify-end gap-8 p-4 sm:p-0" action="{{ route('rented.car', $car) }}"
+<form class="relative flex flex-col items-end justify-end gap-8 p-4 sm:p-0" action="{{ route('rented.car', $car[0]['id']) }}"
     method="get">
-    <a href="{{ route('route.car', $car['id']) }}" class="absolute top-4 right-4 text-yellow-600 font-bold text-2xl">X</a>
+
+    <a href="{{ route('route.car', $car[0]['id']) }}" class="absolute top-4 right-4 text-yellow-600 font-bold text-2xl">X</a>
     <figure class="m-auto">
-        <img src="{{ $car['img'] }}" alt="">
+        <img src="/{{ $car[0]['img'] }}" alt="">
     </figure>
     <div class="flex flex-col gap-8 m-auto max-w-[1000px] w-full">
         <div class="flex flex-col sm:flex-row items-center justify-center gap-12">
