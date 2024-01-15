@@ -15,7 +15,7 @@
             @endif
         </div>
         <div class="max-w-[400px] md:max-w-[600px] w-full">
-            <img class="w-full" src="/{{ $car[0]['img'] }}" alt="">
+            <img class="w-full" src="{{ $car[0]['img'] }}" alt="">
         </div>
     </div>
     @if ($confirmation ?? false)

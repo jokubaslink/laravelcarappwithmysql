@@ -3,7 +3,7 @@
 
     <a href="{{ route('route.car', $car[0]['id']) }}" class="absolute top-4 right-4 text-yellow-600 font-bold text-2xl">X</a>
     <figure class="m-auto">
-        <img src="/{{ $car[0]['img'] }}" alt="">
+        <img src="{{ $car[0]['img'] }}" alt="">
     </figure>
     <div class="flex flex-col gap-8 m-auto max-w-[1000px] w-full">
         <div class="flex flex-col sm:flex-row items-center justify-center gap-12">

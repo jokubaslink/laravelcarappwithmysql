@@ -7,7 +7,7 @@
             <p class="text-center text-xl font-light">The best car rental agency.</p>
         </div>
         <figure class="max-w-[400px] w-full m-auto">
-            <img class="w-full" src="./images/undraw_order_a_car_-3-tww.svg" alt="">
+            <img class="w-full" src="https://raw.githubusercontent.com/jokubaslink/laravelcarappwithmysql/50e13edb6f4d3182e7fd8b2dc105432611503ddd/public/images/undraw_order_a_car_-3-tww.svg" alt="">
         </figure>
         <ul class="flex flex-col sm:flex-row gap-8 sm:gap-0 items-center w-full justify-around text-center mt-20">
             <li class="text-2xl font-light hover:border-b-2 hover:border-yellow-600"><a href="/cars">View our car
